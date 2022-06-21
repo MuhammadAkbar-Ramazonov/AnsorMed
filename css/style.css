@@ -50,6 +50,7 @@ body{
 
 .site-header-login {
     display: inline-block;
+    padding: 12px 24px;
     font-weight: 700;
     font-size: 15px;
     line-height: 150%;
@@ -57,7 +58,6 @@ body{
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 8px;
-    padding: 12px 24px;
     color: #ffffff;
     background: #de2e54;
     border: 2px solid #de2e54;
@@ -109,11 +109,19 @@ body{
     background-color: rgba(222, 46, 84, 0.8);
     border-radius: 8px;
 }
+
+.affair-section-wrapper{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .affair-section-h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 56px;
     color: #000000;
 }
 .affair-section-list {
@@ -158,24 +166,27 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 120px;
 }
 
-.Sign-up-section{
+.sign-up-section{
     background-color: #0eb4c1;
 }
 
-.Sign-up-section-h2 {
+.sing-up-wrapper{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.sign-up-section-h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
     text-align: center;
-    padding-top: 64px;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     color: #ffffff;
 }
 
-.Sign-up-section-list {
+.sign-up-section-list {
     width: 540px;
     display: flex;
     justify-content: space-;
@@ -186,14 +197,13 @@ body{
     margin-left: auto;
     padding-right: 0;
     padding-left: 0;
-    padding-bottom: 64px;
 }
 
-.Sign-up-section-item {
+.sign-up-section-item {
  margin-right: 40px;
 }
 
-.third-section-link {
+.sign-up-section-link {
     font-weight: 700;
     font-size: 15px;
     line-height: 120%;
@@ -206,16 +216,16 @@ body{
     color: #ffffff;
 }
 
-.Sign-up-section-link:hover{
+.sign-up-section-link:hover{
     background: #de2e54;
     border: 2px solid #de2e54;
 }
 
-.Sign-up-section-link:active{
+.sign-up-section-link:active{
     opacity: 0.6;
 }
 
-.Sign-up-section-link-telegram{
+.sign-up-section-link-telegram{
     margin: 0;
 }
 footer{
@@ -233,7 +243,12 @@ footer{
     height: 50px;
 }
 
-.site-footer-nav-text {
+.site-footer-list{
+    display: flex;
+    list-style: none;
+}
+
+.site-footer-item-text {
     font-weight: 700;
     margin-right: 32px;
     font-size: 14px;
@@ -242,6 +257,11 @@ footer{
     text-transform: uppercase;
     color: #ffffff;
 }
+
+.site-footer-end{
+    margin: 0;
+}
+
 .site-footer-nav-text:hover{
     color: #de2e54;
 }
