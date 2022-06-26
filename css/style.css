@@ -137,17 +137,43 @@ body{
     width: 864px;
 }
 
+.affair-section-item::before{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../kartinki/masaj.jpg");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    margin-right: 64px;
+    content: "";
+}
+.zuluk-item:before{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../kartinki/zuluk.jpg");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    margin-right: 64px;
+    content: "";
+}
+.affair-section-item-2::before{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../kartinki/honey.jpg");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    margin-right: 64px;
+    content: "";
+}
+
 .affair-section-item-2{
     margin-bottom: 60px;
 }
 
-.affair-section-item-image {
-    width: 200px;
-    height: 200px;
-}
 .affair-section-item-wrapper {
     width: 600px;
-    margin-left: 64px;
 }
 .affair-section-item-h3 {
     font-weight: 700;
